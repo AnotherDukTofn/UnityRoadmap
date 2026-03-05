@@ -10,7 +10,6 @@ public class Survivor : MonoBehaviour
     public float MaxHealth => maxHealth;
 
     [field: SerializeField] public float MoveSpeed { get; private set; }
-    public float FireSpeed { get; private set; }
 
     public void Move(float direction)
     {
